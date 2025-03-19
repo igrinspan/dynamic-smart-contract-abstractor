@@ -1,0 +1,20 @@
+// BasicProvenance
+digraph {
+	init [label=init]
+	"1-0-" [label="TransferResponsibility(newCounterparty);
+"]
+	init -> "1-0-" [label="constructor "]
+	"1-0-" [label="TransferResponsibility(newCounterparty);
+"]
+	"1-2-" [label="TransferResponsibility(newCounterparty);
+Complete();
+"]
+	"1-0-" -> "1-2-" [label="TransferResponsibility(newCounterparty); "]
+	"1-2-" [label="TransferResponsibility(newCounterparty);
+Complete();
+"]
+	"1-2-" [label="TransferResponsibility(newCounterparty);
+Complete();
+"]
+	"1-2-" -> "1-2-" [label="TransferResponsibility(newCounterparty); "]
+}

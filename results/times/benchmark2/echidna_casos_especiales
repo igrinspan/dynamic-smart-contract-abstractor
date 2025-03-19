@@ -1,0 +1,44 @@
+[
+    {
+        "contract": "RockPaperScissorsModulo",
+        "test_limit": 50000,
+        "mode": "s",
+        "reduce combinations": false,
+        "time_in_s": 45.15
+    },
+    {
+        "contract": "RockPaperScissorsModulo",
+        "test_limit": 500000,
+        "mode": "s",
+        "reduce combinations": false,
+        "time_in_s": 365.52
+    },
+    {
+        "contract": "DigitalLocker",
+        "test_limit": 100,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 8.12
+    },
+    {
+        "contract": "DigitalLockerFixed",
+        "test_limit": 100,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 16960.64
+    },
+    {
+        "contract": "AssetTransfer",
+        "test_limit": 100,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 7441.05
+    },
+    {
+        "contract": "AssetTransferFixed",
+        "test_limit": 100,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 41821.67
+    }
+]

@@ -1,0 +1,27 @@
+// SimpleAuction
+digraph {
+	init [label=init]
+	"0-0-3-4-" [label="auctionEnd();
+t();
+"]
+	init -> "0-0-3-4-" [label="constructor "]
+	init [label=init]
+	"1-0-0-4-" [label="bid();
+t();
+"]
+	init -> "1-0-0-4-" [label="constructor "]
+	"1-0-0-4-" [label="bid();
+t();
+"]
+	"1-0-0-4-" [label="bid();
+t();
+"]
+	"1-0-0-4-" -> "1-0-0-4-" [label="t(); "]
+	"0-0-3-4-" [label="auctionEnd();
+t();
+"]
+	"0-0-3-4-" [label="auctionEnd();
+t();
+"]
+	"0-0-3-4-" -> "0-0-3-4-" [label="auctionEnd(); "]
+}

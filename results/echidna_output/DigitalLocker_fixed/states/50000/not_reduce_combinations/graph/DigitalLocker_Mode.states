@@ -1,0 +1,21 @@
+// DigitalLocker
+digraph {
+	init [label=init]
+	"1-0-0-0-0-0-" [label=Requested]
+	init -> "1-0-0-0-0-0-" [label="constructor "]
+	"1-0-0-0-0-0-" [label=Requested]
+	"0-2-0-0-0-0-" [label=DocumentReview]
+	"1-0-0-0-0-0-" -> "0-2-0-0-0-0-" [label="BeginReviewProcess(); "]
+	"0-0-3-0-0-0-" [label=AvailableToShare]
+	"0-2-0-0-0-0-" [label=DocumentReview]
+	"0-0-3-0-0-0-" -> "0-2-0-0-0-0-" [label="RejectApplication(rejectionReason); "]
+	"1-0-0-0-0-0-" [label=Requested]
+	"0-2-0-0-0-0-" [label=DocumentReview]
+	"1-0-0-0-0-0-" -> "0-2-0-0-0-0-" [label="RejectApplication(rejectionReason); "]
+	"0-2-0-0-0-0-" [label=DocumentReview]
+	"0-0-3-0-0-0-" [label=AvailableToShare]
+	"0-2-0-0-0-0-" -> "0-0-3-0-0-0-" [label="UploadDocuments( lockerIdentifier, image); "]
+	"0-2-0-0-0-0-" [label=DocumentReview]
+	"0-2-0-0-0-0-" [label=DocumentReview]
+	"0-2-0-0-0-0-" -> "0-2-0-0-0-0-" [label="RejectApplication(rejectionReason); "]
+}

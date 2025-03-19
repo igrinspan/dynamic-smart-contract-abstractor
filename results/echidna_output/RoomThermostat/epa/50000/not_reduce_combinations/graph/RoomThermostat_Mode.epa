@@ -1,0 +1,27 @@
+// RoomThermostat
+digraph {
+	init [label=init]
+	"1-0-0-" [label="StartThermostat();
+"]
+	init -> "1-0-0-" [label="constructor "]
+	"0-2-3-" [label="SetTargetTemperature(targetTemperature);
+SetMode(mode);
+"]
+	"0-2-3-" [label="SetTargetTemperature(targetTemperature);
+SetMode(mode);
+"]
+	"0-2-3-" -> "0-2-3-" [label="SetMode(mode); "]
+	"0-2-3-" [label="SetTargetTemperature(targetTemperature);
+SetMode(mode);
+"]
+	"0-2-3-" [label="SetTargetTemperature(targetTemperature);
+SetMode(mode);
+"]
+	"0-2-3-" -> "0-2-3-" [label="SetTargetTemperature(targetTemperature); "]
+	"1-0-0-" [label="StartThermostat();
+"]
+	"0-2-3-" [label="SetTargetTemperature(targetTemperature);
+SetMode(mode);
+"]
+	"1-0-0-" -> "0-2-3-" [label="StartThermostat(); "]
+}

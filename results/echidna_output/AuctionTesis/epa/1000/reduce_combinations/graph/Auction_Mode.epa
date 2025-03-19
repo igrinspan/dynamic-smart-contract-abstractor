@@ -1,0 +1,17 @@
+// Auction
+digraph {
+	init [label=init]
+	"0-0-0-4-" [label="t();
+"]
+	init -> "0-0-0-4-" [label="constructor "]
+	init [label=init]
+	"1-0-0-4-" [label="Bid();
+t();
+"]
+	init -> "1-0-0-4-" [label="constructor "]
+	"0-0-0-4-" [label="t();
+"]
+	"0-0-0-4-" [label="t();
+"]
+	"0-0-0-4-" -> "0-0-0-4-" [label="t(); "]
+}

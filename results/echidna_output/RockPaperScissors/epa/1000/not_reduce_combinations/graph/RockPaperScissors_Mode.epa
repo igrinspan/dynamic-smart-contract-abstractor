@@ -1,0 +1,8 @@
+// RockPaperScissors
+digraph {
+	init [label=init]
+	"1-2-0-" [label="choicePlayer1(choice);
+choicePlayer2(choice);
+"]
+	init -> "1-2-0-" [label="constructor "]
+}

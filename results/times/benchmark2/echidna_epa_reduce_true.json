@@ -1,0 +1,170 @@
+[
+    {
+        "contract": "AuctionTesis",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 15.17
+    },
+    {
+        "contract": "CrowdfundingTesis",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 15.55
+    },
+    {
+        "contract": "EPXCrowdsale",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 59.63
+    },
+    {
+        "contract": "EscrowVault",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 21.72
+    },
+    {
+        "contract": "RefundEscrow",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 13.25
+    },
+    {
+        "contract": "RockPaperScissors",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 10.38
+    },
+    {
+        "contract": "SimpleAuctionTesis",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 19.07
+    },
+    {
+        "contract": "ValidatorAuction",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 21.88
+    },
+    {
+        "contract": "AuctionTesis",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 30.08
+    },
+    {
+        "contract": "CrowdfundingTesis",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 25.66
+    },
+    {
+        "contract": "EPXCrowdsale",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 96.87
+    },
+    {
+        "contract": "EscrowVault",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 84.66
+    },
+    {
+        "contract": "RefundEscrow",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 53.17
+    },
+    {
+        "contract": "RockPaperScissors",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 28.45
+    },
+    {
+        "contract": "SimpleAuctionTesis",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 48.92
+    },
+    {
+        "contract": "ValidatorAuction",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 37.87
+    },
+    {
+        "contract": "AuctionTesis",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 153.07
+    },
+    {
+        "contract": "CrowdfundingTesis",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 131.93
+    },
+    {
+        "contract": "EPXCrowdsale",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 403.6
+    },
+    {
+        "contract": "EscrowVault",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 664.75
+    },
+    {
+        "contract": "RefundEscrow",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 426.01
+    },
+    {
+        "contract": "RockPaperScissors",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 185.15
+    },
+    {
+        "contract": "SimpleAuctionTesis",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 335.73
+    },
+    {
+        "contract": "ValidatorAuction",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": true,
+        "time_in_s": 200.95
+    }
+]

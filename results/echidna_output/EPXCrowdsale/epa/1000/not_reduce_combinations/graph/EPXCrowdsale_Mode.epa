@@ -1,0 +1,8 @@
+// EPXCrowdsale
+digraph {
+	init [label=init]
+	"1-0-0-0-5-" [label="SetupCrowdsale(_fundingStartBlock, _fundingEndBlock);
+t();
+"]
+	init -> "1-0-0-0-5-" [label="constructor "]
+}

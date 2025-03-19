@@ -1,0 +1,21 @@
+// RefundEscrow
+digraph {
+	init [label=init]
+	"1-0-0-" [label=Active]
+	init -> "1-0-0-" [label="constructor "]
+	"1-0-0-" [label=Active]
+	"1-0-0-" [label=Active]
+	"1-0-0-" -> "1-0-0-" [label="transferPrimary(recipient); "]
+	"0-2-0-" [label=Refunding]
+	"0-2-0-" [label=Refunding]
+	"0-2-0-" -> "0-2-0-" [label="transferPrimary(recipient); "]
+	"0-0-3-" [label=Close]
+	"0-0-3-" [label=Close]
+	"0-0-3-" -> "0-0-3-" [label="beneficiaryWithdraw(); "]
+	"1-0-0-" [label=Active]
+	"1-0-0-" [label=Active]
+	"1-0-0-" -> "1-0-0-" [label="deposit(refundee); "]
+	"1-0-0-" [label=Active]
+	"0-2-0-" [label=Refunding]
+	"1-0-0-" -> "0-2-0-" [label="enableRefunds(); "]
+}

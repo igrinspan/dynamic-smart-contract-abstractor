@@ -1,0 +1,18 @@
+// BasicProvenance
+digraph {
+	init [label=init]
+	"1-0-0-" [label=Created]
+	init -> "1-0-0-" [label="constructor "]
+	"1-0-0-" [label=Created]
+	"0-2-0-" [label=InTransit]
+	"1-0-0-" -> "0-2-0-" [label="TransferResponsibility(newCounterparty); "]
+	"1-0-0-" [label=Created]
+	"0-0-3-" [label=Completed]
+	"1-0-0-" -> "0-0-3-" [label="Complete(); "]
+	"0-2-0-" [label=InTransit]
+	"0-2-0-" [label=InTransit]
+	"0-2-0-" -> "0-2-0-" [label="TransferResponsibility(newCounterparty); "]
+	"0-2-0-" [label=InTransit]
+	"0-0-3-" [label=Completed]
+	"0-2-0-" -> "0-0-3-" [label="Complete(); "]
+}

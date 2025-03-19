@@ -1,0 +1,6 @@
+// RoomThermostat
+digraph {
+	init [label=init]
+	"1-0-" [label=Created]
+	init -> "1-0-" [label="constructor "]
+}

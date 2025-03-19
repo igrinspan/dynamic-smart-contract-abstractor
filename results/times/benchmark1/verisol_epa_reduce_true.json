@@ -1,0 +1,114 @@
+[
+    {
+        "contract": "AssetTransfer",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 471.97
+    },
+    {
+        "contract": "AssetTransferFixed",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 1566.79
+    },
+    {
+        "contract": "BasicProvenance",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 12.44
+    },
+    {
+        "contract": "BasicProvenanceFixed",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 21.17
+    },
+    {
+        "contract": "DefectiveComponentCounter",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 7.26
+    },
+    {
+        "contract": "DefectiveComponentCounterFixed",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 8.65
+    },
+    {
+        "contract": "DigitalLocker",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 28.98
+    },
+    {
+        "contract": "DigitalLockerFixed",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 243.54
+    },
+    {
+        "contract": "FrequentFlyerRewardsCalculator",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 8.75
+    },
+    {
+        "contract": "HelloBlockchain",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 7.18
+    },
+    {
+        "contract": "HelloBlockchainFixed",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 9.99
+    },
+    {
+        "contract": "RefrigeratedTransportation",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 19.28
+    },
+    {
+        "contract": "RefrigeratedTransportationFixed",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 28.56
+    },
+    {
+        "contract": "RoomThermostat",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 13.56
+    },
+    {
+        "contract": "SimpleMarketplace",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 20.36
+    },
+    {
+        "contract": "SimpleMarketplaceFixed",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 19.13
+    }
+]

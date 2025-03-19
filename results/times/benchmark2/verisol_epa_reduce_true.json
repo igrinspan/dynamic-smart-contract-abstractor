@@ -1,0 +1,51 @@
+[
+    {
+        "contract": "AuctionTesis",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 54.16
+    },
+    {
+        "contract": "CrowdfundingTesis",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 54.63
+    },
+    {
+        "contract": "EPXCrowdsale",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 305.58
+    },
+    {
+        "contract": "EscrowVault",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 98.76
+    },
+    {
+        "contract": "RefundEscrow",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 63.37
+    },
+    {
+        "contract": "RockPaperScissors",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 33.07
+    },
+    {
+        "contract": "SimpleAuctionTesis",
+        "txBound": 8,
+        "timeout": 600,
+        "mode": "e",
+        "time_in_s": 131.56
+    }
+]

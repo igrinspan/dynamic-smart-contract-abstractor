@@ -1,0 +1,18 @@
+// FrequentFlyerRewardsCalculator
+digraph {
+	init [label=init]
+	"1-0-" [label=SetFlyerAndReward]
+	init -> "1-0-" [label="constructor "]
+	"1-0-" [label=SetFlyerAndReward]
+	"0-2-" [label=MilesAdded]
+	"1-0-" -> "0-2-" [label="AddMiles(miles); "]
+	"1-0-" [label=SetFlyerAndReward]
+	"1-0-" [label=SetFlyerAndReward]
+	"1-0-" -> "1-0-" [label="GetMiles(); "]
+	"0-2-" [label=MilesAdded]
+	"0-2-" [label=MilesAdded]
+	"0-2-" -> "0-2-" [label="GetMiles(); "]
+	"0-2-" [label=MilesAdded]
+	"0-2-" [label=MilesAdded]
+	"0-2-" -> "0-2-" [label="AddMiles(miles); "]
+}

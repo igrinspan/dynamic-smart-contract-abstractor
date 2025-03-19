@@ -1,0 +1,6 @@
+// EPXCrowdsale
+digraph {
+	init [label=init]
+	"0-0-0-0-5-0-0-" [label="Crowdsale deployed to chain"]
+	init -> "0-0-0-0-5-0-0-" [label="constructor "]
+}

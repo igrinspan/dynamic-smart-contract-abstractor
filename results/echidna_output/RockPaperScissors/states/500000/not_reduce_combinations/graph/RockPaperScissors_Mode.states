@@ -1,0 +1,12 @@
+// RockPaperScissors
+digraph {
+	init [label=init]
+	"1-0-0-0-0-0-" [label="Sin apuestas"]
+	init -> "1-0-0-0-0-0-" [label="constructor "]
+	"1-0-0-0-0-0-" [label="Sin apuestas"]
+	"0-0-3-0-0-0-" [label="Solo apuesta 1"]
+	"1-0-0-0-0-0-" -> "0-0-3-0-0-0-" [label="choicePlayer2(choice); "]
+	"1-0-0-0-0-0-" [label="Sin apuestas"]
+	"0-2-0-0-0-0-" [label="Solo apuesta 2"]
+	"1-0-0-0-0-0-" -> "0-2-0-0-0-0-" [label="choicePlayer1(choice); "]
+}

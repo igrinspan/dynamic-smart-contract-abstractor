@@ -1,0 +1,18 @@
+// SimpleAuction
+digraph {
+	init [label=init]
+	"0-2-0-0-0-0-" [label="En curso, sin ofertas realizadas"]
+	init -> "0-2-0-0-0-0-" [label="constructor "]
+	init [label=init]
+	"0-0-3-0-0-0-" [label="Finalizada sin ofertas"]
+	init -> "0-0-3-0-0-0-" [label="constructor "]
+	init [label=init]
+	"1-0-0-0-0-0-" [label="En espera"]
+	init -> "1-0-0-0-0-0-" [label="constructor "]
+	"0-0-3-0-0-0-" [label="Finalizada sin ofertas"]
+	"0-0-3-0-0-0-" [label="Finalizada sin ofertas"]
+	"0-0-3-0-0-0-" -> "0-0-3-0-0-0-" [label="auctionEnd(); "]
+	"0-0-3-0-0-0-" [label="Finalizada sin ofertas"]
+	"0-0-3-0-0-0-" [label="Finalizada sin ofertas"]
+	"0-0-3-0-0-0-" -> "0-0-3-0-0-0-" [label="t(); "]
+}

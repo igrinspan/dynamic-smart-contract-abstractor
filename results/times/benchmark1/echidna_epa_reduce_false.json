@@ -1,0 +1,254 @@
+[
+    {
+        "contract": "BasicProvenance",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 3.62
+    },
+    {
+        "contract": "BasicProvenanceFixed",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 4.11
+    },
+    {
+        "contract": "DefectiveComponentCounter",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 3.94
+    },
+    {
+        "contract": "DefectiveComponentCounterFixed",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 3.87
+    },
+    {
+        "contract": "FrequentFlyerRewardsCalculator",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 4.69
+    },
+    {
+        "contract": "HelloBlockchain",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 3.72
+    },
+    {
+        "contract": "HelloBlockchainFixed",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 3.96
+    },
+    {
+        "contract": "RefrigeratedTransportation",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 6.02
+    },
+    {
+        "contract": "RefrigeratedTransportationFixed",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 6.19
+    },
+    {
+        "contract": "RoomThermostat",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 4.41
+    },
+    {
+        "contract": "SimpleMarketplace",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 4.59
+    },
+    {
+        "contract": "SimpleMarketplaceFixed",
+        "test_limit": 1000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 4.31
+    },
+    {
+        "contract": "BasicProvenance",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 17.92
+    },
+    {
+        "contract": "BasicProvenanceFixed",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 22.02
+    },
+    {
+        "contract": "DefectiveComponentCounter",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 30
+    },
+    {
+        "contract": "DefectiveComponentCounterFixed",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 23.85
+    },
+    {
+        "contract": "FrequentFlyerRewardsCalculator",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 53.64
+    },
+    {
+        "contract": "HelloBlockchain",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 24.59
+    },
+    {
+        "contract": "HelloBlockchainFixed",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 22.29
+    },
+    {
+        "contract": "RefrigeratedTransportation",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 54.76
+    },
+    {
+        "contract": "RefrigeratedTransportationFixed",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 54.15
+    },
+    {
+        "contract": "RoomThermostat",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 24.76
+    },
+    {
+        "contract": "SimpleMarketplace",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 28.61
+    },
+    {
+        "contract": "SimpleMarketplaceFixed",
+        "test_limit": 50000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 24.52
+    },
+    {
+        "contract": "BasicProvenance",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 146.37
+    },
+    {
+        "contract": "BasicProvenanceFixed",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 183.22
+    },
+    {
+        "contract": "DefectiveComponentCounter",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 260.11
+    },
+    {
+        "contract": "DefectiveComponentCounterFixed",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 208.11
+    },
+    {
+        "contract": "FrequentFlyerRewardsCalculator",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 475.09
+    },
+    {
+        "contract": "HelloBlockchain",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 209.7
+    },
+    {
+        "contract": "HelloBlockchainFixed",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 188.82
+    },
+    {
+        "contract": "RefrigeratedTransportation",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 502.7
+    },
+    {
+        "contract": "RefrigeratedTransportationFixed",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 516.23
+    },
+    {
+        "contract": "RoomThermostat",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 210.51
+    },
+    {
+        "contract": "SimpleMarketplace",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 247.76
+    },
+    {
+        "contract": "SimpleMarketplaceFixed",
+        "test_limit": 500000,
+        "mode": "e",
+        "reduce combinations": false,
+        "time_in_s": 200.22
+    }
+]

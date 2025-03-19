@@ -1,0 +1,15 @@
+// RefundEscrow
+digraph {
+	init [label=init]
+	"1-2-3-0-0-6-" [label="deposit(refundee);
+close();
+enableRefunds();
+transferPrimary(recipient);
+"]
+	init -> "1-2-3-0-0-6-" [label="constructor "]
+	"0-0-0-0-0-6-" [label="transferPrimary(recipient);
+"]
+	"0-0-0-0-0-6-" [label="transferPrimary(recipient);
+"]
+	"0-0-0-0-0-6-" -> "0-0-0-0-0-6-" [label="transferPrimary(recipient); "]
+}

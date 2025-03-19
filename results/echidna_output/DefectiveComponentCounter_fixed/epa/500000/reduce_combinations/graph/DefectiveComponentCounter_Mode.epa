@@ -1,0 +1,15 @@
+// DefectiveComponentCounter
+digraph {
+	init [label=init]
+	"1-2-" [label="ComputeTotal();
+GetDefectiveComponentsCount();
+"]
+	init -> "1-2-" [label="constructor "]
+	"1-2-" [label="ComputeTotal();
+GetDefectiveComponentsCount();
+"]
+	"1-2-" [label="ComputeTotal();
+GetDefectiveComponentsCount();
+"]
+	"1-2-" -> "1-2-" [label="GetDefectiveComponentsCount(); "]
+}

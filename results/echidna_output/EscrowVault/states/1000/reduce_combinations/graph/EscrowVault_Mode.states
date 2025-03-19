@@ -1,0 +1,9 @@
+// EscrowVault
+digraph {
+	init [label=init]
+	"1-0-0-0-" [label=Active]
+	init -> "1-0-0-0-" [label="constructor "]
+	"0-2-0-0-" [label=Refunding]
+	"0-2-0-0-" [label=Refunding]
+	"0-2-0-0-" -> "0-2-0-0-" [label="refund(investor); "]
+}

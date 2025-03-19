@@ -1,0 +1,15 @@
+// RoomThermostat
+digraph {
+	init [label=init]
+	"1-0-" [label=Created]
+	init -> "1-0-" [label="constructor "]
+	"1-0-" [label=Created]
+	"0-2-" [label=InUse]
+	"1-0-" -> "0-2-" [label="StartThermostat(); "]
+	"0-2-" [label=InUse]
+	"0-2-" [label=InUse]
+	"0-2-" -> "0-2-" [label="SetTargetTemperature(targetTemperature); "]
+	"0-2-" [label=InUse]
+	"0-2-" [label=InUse]
+	"0-2-" -> "0-2-" [label="SetMode(mode); "]
+}

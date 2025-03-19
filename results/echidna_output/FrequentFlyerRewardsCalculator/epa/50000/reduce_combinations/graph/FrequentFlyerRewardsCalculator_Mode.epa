@@ -1,0 +1,22 @@
+// FrequentFlyerRewardsCalculator
+digraph {
+	init [label=init]
+	"1-2-" [label="AddMiles(miles);
+GetMiles();
+"]
+	init -> "1-2-" [label="constructor "]
+	"1-2-" [label="AddMiles(miles);
+GetMiles();
+"]
+	"1-2-" [label="AddMiles(miles);
+GetMiles();
+"]
+	"1-2-" -> "1-2-" [label="GetMiles(); "]
+	"1-2-" [label="AddMiles(miles);
+GetMiles();
+"]
+	"1-2-" [label="AddMiles(miles);
+GetMiles();
+"]
+	"1-2-" -> "1-2-" [label="AddMiles(miles); "]
+}
