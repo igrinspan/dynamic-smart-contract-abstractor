@@ -4,4 +4,4 @@ El código de la herramienta se encuentra dentro del directorio `app`.
 
 Los contratos analizados y sus archivos de configuración correspondientes se encuentran en los directorios `Benchmark 1 Contracts and Configs` y `Benchmark 2 Contracts and Configs`.
 
-Por último, en el directorio `results` se encuentran las abstracciones generadas por la herramienta para cada configuración evaluada, ya sea utilizando Echidna como VeriSol como herramienta de fondo. Dentro de ese directorio, en la carpeta `times` se pueden encontrar los tiempos de todas las ejecuciones.
+Por último, en el directorio `results` se encuentran las abstracciones generadas por la herramienta para cada configuración evaluada, ya sea utilizando Echidna como VeriSol como herramienta de fondo. Dentro de ese directorio, en la carpeta `times` se pueden encontrar los tiempos de todas las ejecuciones y en la carpeta `query_count` se encuentra la cantidad de queries generada por cada contrato en cada tipo de ejecución.
